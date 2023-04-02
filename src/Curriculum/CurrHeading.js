@@ -136,6 +136,7 @@ const CurrHeading = () => {
                   />
                 </div>
             </div>
+            {/* heading-box start */}
             <div className="heading-box">
             {headingAllIds.map((headingId) => {
                     const { name } = heading[headingId];
@@ -209,6 +210,7 @@ const CurrHeading = () => {
                      />
                   </div>
                 </div>
+                {/* Sub-heading-box start */}
                 <div className="sub-heading-box">
                 {subHeadingAllIds &&
                             subHeadingAllIds.map((subHeadingId) => {
@@ -312,6 +314,7 @@ const CurrHeading = () => {
           })}
         </div>
       </div>
+      {/* Add Standard start */}
       <div className="enter-standard">
       <form onSubmit={handleStandardSummit}>
         <div className="standard-row">

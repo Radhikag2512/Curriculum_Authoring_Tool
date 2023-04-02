@@ -2,6 +2,7 @@ import React from 'react';
 
 const CurrAction = () => {
   return (
+    // heading and subheading part for understanding
   <div className="subjects-wrapper">
     <div className="subjects-heading">
       <div class="heading-wrapper">

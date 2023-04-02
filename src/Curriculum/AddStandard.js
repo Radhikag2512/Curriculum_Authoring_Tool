@@ -2,6 +2,7 @@ import React from 'react'
 
 const AddStandard = () => {
   return (
+// Add Standard part for understanding
     <div className="enter-standard">
       <form>
         <div className="standard-row">
