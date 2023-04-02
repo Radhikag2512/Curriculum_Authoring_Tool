@@ -6,9 +6,7 @@ import { DragDropContext } from 'react-beautiful-dnd';
 const App  = () => {
   return (
     <ContextWrapper>
-      <DragDropContext>
       <CurrHeading/>
-      </DragDropContext>
     </ContextWrapper>
   )
 }
