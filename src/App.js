@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import CurrHeading  from "./Curriculum/CurrHeading";
+import ContextWrapper from "./appContext";
+import { DragDropContext } from 'react-beautiful-dnd';
 
-function App() {
+const App  = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ContextWrapper>
+      <DragDropContext>
+      <CurrHeading/>
+      </DragDropContext>
+    </ContextWrapper>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,235 @@
+.curriculum-wrapper {
+    width: 1180px;
+    /* margin: 0 auto; */
+    margin: 10rem;
+}
+.subject-heading {
+      padding: 0.5em;
+      color: #cac8c8;
+}
+
+b {
+    font-weight: bold;
+}
+
+.subjects-heading {
+    display: flex;
+    width: 100%;
+    border: 1px solid #e0dfdf;
+    padding: 0.5em;
+    border-right: none;
+    border-left: none;
+    box-sizing: border-box;
+}
+.heading-wrapper:first-child {
+    width: 8em;
+}
+
+.main-heading {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 12px;
+    color: #888;
+    font-weight: bold;
+}
+
+.sub-heading :first-child {
+    width: 8em;
+  }
+
+.subject-row {
+    display: flex;
+    border-bottom: 1px solid #e0dfdf;
+    height: 38px;
+    justify-content: left;
+    width: 100%;
+}
+
+.subject-col:first-child {
+    width: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tooltip-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.tooltip-wrapper i {
+    -webkit-filter: contrast(0);
+    filter: contrast(0);
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    margin-top: 0.4rem;
+    transition: 0.2s;
+}
+
+.tooltip-wrapper i:hover{
+    transform: scale(1.03);
+}
+
+button {
+    cursor: pointer;
+}
+
+.tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #929191;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+.subject-col:nth-child(2) {
+    min-width: 2em;
+}
+
+.level {
+    width: 2em;
+    background: rgba(106,140,175,.28);
+    height: 100%;
+    transition: all .1s linear;
+    margin-left: 0em;
+}
+
+.subject-col:nth-child(3) {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    flex-grow: 1;
+}  
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.chapter {
+    color: #2dadba;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.heading-box .heading-row {
+    display: flex;
+    border-bottom: 1px solid #e0dfdf;
+    height: 38px;
+    justify-content: left;
+    width: 100%;
+}
+
+ .heading-col:first-child{
+    width: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-col:nth-child(2) {
+    min-width: 2em;
+}
+
+.heading-col:nth-child(3) {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    flex-grow: 1;
+}
+.heading {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sub-heading-row {
+    display: flex;
+    border-bottom: 1px solid #e0dfdf;
+    height: 38px;
+    justify-content: left;
+    width: 100%;
+}
+
+.sub-heading-col:first-child{
+    width: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-heading-col:nth-child(2) {
+    min-width: 2em;
+}
+
+.sub-heading-col:nth-child(3) {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    flex-grow: 1;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.standard-row {
+    display: flex;
+    border-bottom: 1px solid #e0dfdf;
+    height: 38px;
+    justify-content: left;
+    width: 100%;
+}
+
+.standard-col:first-child{
+    width: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+.standard-col:nth-child(2) {
+    min-width: 2em;
+}
+
+.standard-col:nth-child(3) {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    flex-grow: 1;
+}
+
+.add-standard {
+    background: #6a8caf;
+    width: 100%;
+    min-height: 40px;
+    margin: 1em 0 0;
+}
+
+button {
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+}
